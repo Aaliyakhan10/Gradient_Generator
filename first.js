@@ -74,13 +74,13 @@ btn2.addEventListener("click",()=>{
     bodyy.style.background= disStr ;
 });
 ggInfo.addEventListener("click",()=>{
-    navigator.clipboard.writeText(ggInfo.innerText);
-    alert("Copied the text: " + ggInfo.innerText);
+    navigator.clipboard.writeText(  `background:${ggInfo.innerText} `);
+    alert("Copied the text: " + `background:${ggInfo.innerText} `);
 })
 fun();
 fun2();
- let disStr=` background-image:${gd}(${type}, ${hexCode1}, ${hexCode2})`;
-bodyy.style=disStr;
+let disStr=`${gd}(${type}, ${hexCode1}, ${hexCode2})`;
+bodyy.style.background=disStr;
 ggInfo.innerText=disStr;
 btn2.innerText=hexCode2;
 btn2.style.backgroundColor=hexCode2;
