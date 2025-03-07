@@ -19,7 +19,7 @@ bash
 
 Copy
 
-git clone https://github.com/your-username/gradient-generator.git
+git clone https://github.com/Aaliyakhan10/Gradient_Generator.git
 
 cd gradient-generator
 
