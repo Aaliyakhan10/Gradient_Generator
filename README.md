@@ -6,7 +6,7 @@ Features
 
 •	Random Color Generation: Automatically generates two random colors.
 
-•	Gradient Types: Choose between linear and radial gradients.
+•	Gradient Types:Randomly choose between linear and radial gradients.
 
 •	Live Preview: View the generated gradient instantly in the browser.
 
